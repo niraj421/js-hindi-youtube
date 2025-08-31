@@ -29,4 +29,33 @@ const myFunction = function(){
     console.log("hello world");
 }
 
-console.log(typeof myFunction);
+console.log(typeof anotherId);
+
+// link to study
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// stack(primitive),Heap(Non-primitive)
+
+let myYoutubename = "nirajsinghdotcom"
+
+let anothername = myYoutubename
+
+anothername = "chaiourcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+
+}
+let userTwo = userOne 
+
+userTwo.email = "niraj@1234"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
